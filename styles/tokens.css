@@ -1,0 +1,76 @@
+/* ==========================================================
+   Design tokens – KaOs · Klarheit im Beruf
+   Primitive palette first, then semantic tokens built on it.
+   ========================================================== */
+:root {
+  /* Primitive palette */
+  --navy-900: #0b3452;
+  --teal-800: #174c5c;
+  --teal-700: #0f4658;
+  --gold-500: #c49a5c;
+  --cream-50: #f7f4ef;
+  --sand-100: #efe9df;
+  --sand-300: #d9c7a8;
+  --sage-100: #dbe6da;
+  --sage-600: #5b8a68;
+  --clay-100: #eee2d3;
+  --sky-100: #d9e4ee;
+  --sky-400: #9db9d1;
+  --white: #fff;
+
+  /* Semantic: surfaces */
+  --color-bg: var(--cream-50);
+  --color-bg-band: var(--sand-100);
+  --color-bg-inverse: var(--teal-800);
+  --color-bg-footer: var(--teal-700);
+
+  /* Semantic: text */
+  --color-text: var(--navy-900);
+  --color-text-muted: #2f4b5f;
+  --color-text-inverse: var(--white);
+  --color-accent: var(--gold-500);
+  --color-divider: rgb(11 52 82 / 0.18);
+  --color-divider-inverse: rgb(255 255 255 / 0.3);
+
+  /* Semantic: components */
+  --color-btn-primary-bg: var(--navy-900);
+  --color-btn-primary-text: var(--white);
+  --color-focus: var(--gold-500);
+
+  /* Typography */
+  --font-serif: "Newsreader", "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-script: "Caveat", "Segoe Script", cursive;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-h3: 1.375rem;
+  --fs-h2: clamp(1.75rem, 3vw, 2.25rem);
+  --fs-h1: clamp(2.5rem, 5vw, 3.75rem);
+  --lh-body: 1.6;
+  --lh-heading: 1.15;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  /* Layout */
+  --container: 1200px;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --section-y: clamp(2.5rem, 6vw, 4.5rem);
+
+  /* Shape & motion */
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --shadow-hover: 0 8px 20px rgb(11 52 82 / 0.12);
+  --transition: 180ms ease;
+}
