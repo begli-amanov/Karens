@@ -16,3 +16,10 @@ nav.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") setOpen(false);
 });
+
+document.querySelectorAll("[data-email-contact]").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = `mailto:${atob("Y29hY2hpbmdAb3Nza2VsbGVybWFubi5kZQ==")}`;
+  });
+});

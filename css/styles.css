@@ -391,7 +391,8 @@ a {
   position: absolute;
   z-index: 1;
   right: var(--gutter);
-  top: 18%;
+  top: 25%;
+  left: 5%;
   color: var(--navy-900);
 }
 
@@ -574,15 +575,7 @@ a {
     bottom: auto;
     height: 320px;
   }
-  .hero__note {
-    position: static;
-    padding: var(--space-4) var(--gutter) 0;
-    text-align: center;
-    transform: rotate(-3deg);
-  }
-  .hero__note::after {
-    margin-inline: auto;
-  }
+
   .hero__inner,
   .about__grid,
   .cta__inner,

@@ -33,7 +33,6 @@
     "name": "KaOs – Klarheit im Beruf",
     "description": "Systemisches Coaching für Berufswahl, berufliche Orientierung und Veränderung.",
     "url": "https://www.klarheit-im-beruf.de/",
-    "email": "hallo@klarheit-im-beruf.de",
     "telephone": "+49 711 1234567",
     "areaServed": "Stuttgart",
     "address": { "@type": "PostalAddress", "addressLocality": "Stuttgart", "addressCountry": "DE" }
@@ -301,7 +300,8 @@
           <h2 class="section__title" id="cta-title">Der erste Schritt beginnt mit einem Gespräch.</h2>
           <p class="cta__text">In einem unverbindlichen Kennenlerngespräch schauen wir gemeinsam auf Deine Situation und
             Deine Fragen.</p>
-          <a class="btn btn--lg" href="mailto:hallo@klarheit-im-beruf.de">Kennenlerngespräch vereinbaren <svg
+          <!-- TODO: Replace email links with a hosted contact form when a provider is selected. -->
+          <a class="btn btn--lg" href="#kontakt" data-email-contact>Kennenlerngespräch vereinbaren <svg
               class="icon" aria-hidden="true">
               <use href="#i-arrow" />
             </svg></a>
@@ -322,7 +322,7 @@
           <ul class="contact-list">
             <li><svg class="icon" aria-hidden="true">
                 <use href="#i-mail" />
-              </svg><a href="mailto:hallo@klarheit-im-beruf.de">hallo@klarheit-im-beruf.de</a></li>
+              </svg><a href="#kontakt" data-email-contact>E-Mail schreiben</a></li>
             <li><svg class="icon" aria-hidden="true">
                 <use href="#i-phone" />
               </svg><a href="tel:+497111234567">0711 123 45 67</a></li>
