@@ -37,6 +37,7 @@ p,
 ul,
 address {
   margin: 0;
+  font-size: 16px;
 }
 ul {
   padding: 0;

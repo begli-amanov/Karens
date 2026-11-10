@@ -79,6 +79,14 @@
       <circle cx="11" cy="11" r="7" />
       <path d="M16 16l5 5" />
     </symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24">
+      <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z" />
+      <circle cx="12" cy="12" r="3" />
+    </symbol>
+    <symbol id="i-circle" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11" />
+      <path d="M12 3L20.794 18.232H3.206L12 3Z" />
+    </symbol>
     <symbol id="i-leaf" viewBox="0 0 24 24">
       <path d="M5 19C5 10 10 4 20 4c0 10-5 15-14 15zM5 19l8-8" />
     </symbol>
@@ -122,13 +130,10 @@
         <ul>
           <li><a href="#start">Start</a></li>
           <li><a href="#ueber-mich">Über mich</a></li>
-          <li><a href="#angebot">Angebot</a></li>
-          <li><a href="#ablauf">Ablauf</a></li>
+          <li><a href="#angebot">Mein Angebot</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
-          <li class="site-nav__cta"><a class="btn" href="#kontakt">Kennenlerngespräch vereinbaren</a></li>
         </ul>
       </nav>
-      <a class="btn btn--header" href="#kontakt">Kennenlerngespräch vereinbaren</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="icon"
           aria-hidden="true">
           <use href="#i-menu" />
@@ -148,9 +153,6 @@
           <p class="hero__location"><svg class="icon" aria-hidden="true">
               <use href="#i-pin" />
             </svg> Online oder persönlich in Stuttgart.</p>
-          <a class="btn btn--lg" href="#kontakt">Kennenlerngespräch vereinbaren <svg class="icon" aria-hidden="true">
-              <use href="#i-arrow" />
-            </svg></a>
         </div>
         <figure class="hero__media">
           <img src="assets/hero.jpg" alt="Coach im Gespräch, aufmerksam zugewandt" fetchpriority="high" width="335"
@@ -202,12 +204,12 @@
     <section class="section" id="ueber-mich" aria-labelledby="about-title">
       <div class="container about__grid">
         <figure class="about__photo">
-          <img src="assets/about.jpg" alt="Die Coachin entspannt im Liegestuhl, lächelnd" loading="lazy"
+          <img src="assets/youre-not-lost.jpg" alt="Die Coachin entspannt im Liegestuhl, lächelnd" loading="lazy"
             decoding="async" width="307" height="235">
         </figure>
         <div class="about__content">
           <p class="section__eyebrow">Über mich</p>
-          <h2 class="about__title" id="about-title">Berufswege müssen nicht geradlinig sein. Sie sollten zu den Menschen
+          <h2 class="about__title" id="about-title">Berufswege müssen nicht geradlinig sein. Sie sollen zu uns
             passen.</h2>
           <p>Mein eigener Weg führte vom Buchhandel über Studium und Bildungsarbeit ins Personalwesen. Heute arbeite ich
             als Personalleiterin und systemische Coach.</p>
@@ -215,85 +217,86 @@
               Beruf</strong> unterstütze ich Dich dabei, Deine Stärken, Interessen und Ziele besser zu verstehen und
             berufliche Entscheidungen mit Klarheit und Zuversicht zu treffen.</p>
         </div>
-        <p class="script-note script-note--blob">Unterschiedliche Wege. Ein Ziel: Was zu Dir passt.</p>
       </div>
     </section>
 
-    <!-- Angebot -->
+    <!-- <p class="script-note script-note--blob">Unterschiedliche Wege. Ein Ziel, das zu Dir passt.</p> -->
+
+    <!-- Mein Angebot -->
     <section class="section" id="angebot" aria-labelledby="angebot-title">
       <div class="container">
         <header class="section__header">
           <p class="section__eyebrow">Mein Angebot</p>
-          <h2 class="section__title" id="angebot-title">Drei Schwerpunkte. Ein Ziel: Deinen Weg finden.</h2>
+          <h2 class="section__title" id="angebot-title">Drei Schwerpunkte. Ein Ziel: Deinen Weg finden</h2>
         </header>
         <div class="offer__grid">
           <article class="card card--sage">
             <svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-cap" />
             </svg>
-            <h3 class="card__title">Berufswahl-Coaching</h3>
-            <p class="card__text">Für Jugendliche und junge Erwachsene. Mit systemischem Coaching und fundierter
-              Eignungsdiagnostik mit dem <strong>LINC Personality Profiler</strong>, um passende Studien- und Berufswege
-              zu entdecken.</p>
-            <a class="btn" href="#kontakt">Berufswahl entdecken <svg class="icon" aria-hidden="true">
-                <use href="#i-arrow" />
-              </svg></a>
+            <h3 class="card__title">Berufs- und Studienwahl</h3>
+            <p class="card__text">... wenn Du den Wald vor lauter Bäumen nicht siehst und Dich fragst, welches
+              Berufsfeld
+              das passende für Dich wäre.
           </article>
+
           <article class="card card--clay">
             <svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-bars" />
             </svg>
             <h3 class="card__title">Karriere &amp; Neuorientierung</h3>
-            <p class="card__text">Wenn Du vor einer beruflichen Veränderung stehst, neue Perspektiven entwickeln oder
+            <p class="card__text">... wenn Du vor einer beruflichen Veränderung stehst, neue Perspektiven entwickeln
+              oder
               wichtige Karriereentscheidungen treffen möchtest.</p>
-            <a class="btn" href="#kontakt">Neue Perspektiven entwickeln <svg class="icon" aria-hidden="true">
-                <use href="#i-arrow" />
-              </svg></a>
           </article>
+
           <article class="card card--sky">
             <svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-person" />
             </svg>
             <h3 class="card__title">Beruf &amp; Familie</h3>
-            <p class="card__text">Wenn unterschiedliche Lebensbereiche in Einklang gebracht werden sollen und Du Deine
+            <p class="card__text">... wenn unterschiedliche Lebensbereiche in Einklang gebracht werden sollen und Du
+              Deine
               Prioritäten klären möchtest.</p>
-            <a class="btn" href="#kontakt">Prioritäten klären <svg class="icon" aria-hidden="true">
-                <use href="#i-arrow" />
-              </svg></a>
           </article>
+
         </div>
       </div>
     </section>
 
     <!-- Ansatz -->
+
+    <!-- Add style changes to anchor text -->
+
     <section class="section section--inverse approach" aria-labelledby="ansatz-title">
       <div class="container">
         <header class="section__header">
-          <p class="section__eyebrow">Mein Ansatz</p>
-          <h2 class="section__title" id="ansatz-title">Was Du von mir erwarten kannst.</h2>
+          <p class="section__eyebrow">Was Du von mir erwarten kannst</p>
+          <h2 class="section__title" id="ansatz-title">Das bringe ich mit:</h2>
         </header>
         <ul class="icon-grid icon-grid--inverse">
           <li class="icon-grid__item"><svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-people" />
-            </svg>Systemisches Coaching</li>
+            </svg><a href="https://coachingakademie-berlin.de/"> Systemisches Coaching</a></li>
           <li class="icon-grid__item"><svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-bars" />
             </svg>Langjährige Erfahrung als Personalleiterin</li>
           <li class="icon-grid__item"><svg class="icon icon--lg" aria-hidden="true">
               <use href="#i-search" />
-            </svg>Fundierte Eignungsdiagnostik mit dem LINC Personality Profiler</li>
+            </svg>Fundierte Eignungsdiagnostik mit dem <a href="https://linc.de/"> LINC Personality Profiler</a></li>
           <li class="icon-grid__item"><svg class="icon icon--lg" aria-hidden="true">
-              <use href="#i-leaf" />
+              <use href="#i-eye" />
             </svg>Praxisnahe Perspektive</li>
           <li class="icon-grid__item"><svg class="icon icon--lg" aria-hidden="true">
-              <use href="#i-heart" />
-            </svg>Persönliche Begleitung auf Augenhöhe</li>
+              <use href="#i-circle" />
+            </svg>Themenzentrierte Interaktion nach <a href="https://ruth-cohn-institute.org/en/"><strong>Ruth
+                Cohn</strong></a></li>
         </ul>
       </div>
     </section>
 
     <!-- Kontakt / CTA -->
-    <section class="section cta" id="ablauf" aria-labelledby="cta-title">
+    <section class="section cta" aria-labelledby="cta-title">
       <div class="container cta__inner">
         <div class="cta__content">
           <p class="section__eyebrow">Los geht’s</p>
@@ -301,8 +304,8 @@
           <p class="cta__text">In einem unverbindlichen Kennenlerngespräch schauen wir gemeinsam auf Deine Situation und
             Deine Fragen.</p>
           <!-- TODO: Replace email links with a hosted contact form when a provider is selected. -->
-          <a class="btn btn--lg" href="#kontakt" data-email-contact>Kennenlerngespräch vereinbaren <svg
-              class="icon" aria-hidden="true">
+          <a class="btn btn--lg" href="#kontakt" data-email-contact>Kennenlerngespräch vereinbaren <svg class="icon"
+              aria-hidden="true">
               <use href="#i-arrow" />
             </svg></a>
         </div>
@@ -314,7 +317,7 @@
   <footer class="site-footer" id="kontakt">
     <div class="container">
       <div class="site-footer__grid">
-        <a class="logo" href="#start" aria-label="KaOs – Klarheit im Beruf">
+        <a class="logo" href="#start" aria-label="KaOs - Klarheit im Beruf">
           <span class="logo__mark" aria-hidden="true">Ka<span>O</span>s</span>
           <span class="logo__claim">Klarheit im Beruf<small>Orientierung. Entwicklung. Perspektiven.</small></span>
         </a>
@@ -325,7 +328,7 @@
               </svg><a href="#kontakt" data-email-contact>E-Mail schreiben</a></li>
             <li><svg class="icon" aria-hidden="true">
                 <use href="#i-phone" />
-              </svg><a href="tel:+497111234567">0711 123 45 67</a></li>
+              </svg><a href="tel:+491738886352">0173 888 63 52</a></li>
             <li><svg class="icon" aria-hidden="true">
                 <use href="#i-pin" />
               </svg>Stuttgart oder online</li>
